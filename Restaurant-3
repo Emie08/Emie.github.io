@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur Mon Site Web</h1>
+    </header>
+
+    <section>
+        <p>Ce site a été créé avec GitHub Pages.</p>
+        <button onclick="afficherMessage()">Cliquez-moi</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+/* Style de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}function afficherMessage() {
+    alert("Merci d'avoir cliqué sur le bouton !");
+}
+git add .
+git commit -m "Ajout des fichiers de base pour le site web"
+git push origin main
